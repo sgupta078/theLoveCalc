@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient(rgb(194, 64, 32), rgba(214, 144, 13, 0.5));
+}
+
+header > h2{
+    margin-top: 20px;
+    margin-left: 30px;
+    font-family: cursive;
+    font-size: 200%;
+    font-weight: bolder;
+    color: white;
+}
+
+.home{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.block1{
+    max-height: 500px;
+}
+
+.block2{
+    display: flex;
+    flex-direction: column;
+}
+
+.block2_1{
+    max-width: 850px;
+    margin: auto;
+    margin-top: 40px;
+    align-items: center;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 20px #7e4848;
+}
+
+.block2_2{
+    color: #ffff;
+    margin-top: 20px;
+    background: linear-gradient(rgb(194, 64, 32), rgba(214, 144, 13, 0.5));
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    align-items: center;
+    text-align: center;
+    font-size: 120%;
+    padding: 30px;
+    max-width: 850px;
+    min-height: 100px;
+    box-shadow: 10px 10px 20px #7e4848;
+}
+
+.block3{
+    max-height: 500px;
+}
+
+.loveImages{
+    max-width: 400px;
+    object-fit: contain;
+}
+
+form{
+    background: linear-gradient(rgb(194, 64, 32), rgba(214, 144, 13, 0.5));
+    padding: 30px;
+    margin-top: 5px;
+    font-size: 120%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+label{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 110%;
+}
+
+.names{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nameBlock{
+    display: flex;
+    flex-direction: column;
+}
+
+input[type=text]{
+    color: red;
+    width: 100%;
+    margin-top: 3px;
+    max-height: 50px;
+    padding: 10px;
+    font-size: 100%;
+    border: 1px solid grey;
+    border-radius: 3px;
+}
+
+.buttons{
+    justify-content: center;
+}
+
+.buttons_calculate{
+    cursor: pointer;
+    border-radius: 3px;
+    width: 100%;
+    background: linear-gradient(rgb(204, 34, 34), rgb(75, 75, 2));
+    border: 1px solid rgb(175, 66, 23);
+    padding: 5px;
+    margin-top: 20px;
+    font-size: 120%;
+    font-weight: bold;
+    color: white;
+}
+
+.buttons_calculate:hover{
+    color: rgb(231, 190, 231);
+}
+
+.buttons_calculate:active{
+    color: rgb(255, 133, 255);
+    background: linear-gradient(rgb(75, 75, 2), rgb(204, 34, 34));
+}
